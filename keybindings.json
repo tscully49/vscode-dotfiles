@@ -143,4 +143,9 @@
         "command": "workbench.action.quickOpenSelectPrevious",
         "when": "inQuickOpen"
     },
+    // ctrl+space is easier to press than ctrl+`
+    {
+        "key": "ctrl+space",
+        "command": "workbench.action.terminal.toggleTerminal"
+    }
 ]
