@@ -145,7 +145,16 @@
     },
     // ctrl+space is easier to press than ctrl+`
     {
-        "key": "ctrl+space",
+        "key": "ctrl+shift+space",
         "command": "workbench.action.terminal.toggleTerminal"
+    },
+    // move lines up and down like vim
+    {
+        "key": "alt+k",
+        "command": "editor.action.moveLinesUpAction"
+    },
+    {
+        "key": "alt+j",
+        "command": "editor.action.moveLinesDownAction"
     }
 ]

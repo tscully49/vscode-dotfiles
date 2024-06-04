@@ -41,10 +41,11 @@
       "!Split sequence"
     ],
     "yaml.schemas": {
-      "file:///Users/thomas.scully/Library/Application%20Support/Code/User/globalStorage/amazonwebservices.aws-toolkit-vscode/sam.schema.json": [
-        "test-sam-local/my-test/template.yaml",
-        "test-sam-local/gitlab-github-integration/template.yaml"
-      ]
+        "file:///Users/thomas.scully/Library/Application%20Support/Code/User/globalStorage/amazonwebservices.aws-toolkit-vscode/sam.schema.json": [
+            "test-sam-local/my-test/template.yaml",
+            "test-sam-local/gitlab-github-integration/template.yaml"
+        ],
+        "file:///Users/tscully/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "json.schemas": [],
     "search.useIgnoreFiles": false,
@@ -604,7 +605,8 @@
     "liveshare.anonymousGuestApproval": "reject",
     "vim.foldfix": true,
     "files.autoSave": "onFocusChange",
-    "workbench.activityBar.location": "hidden",
     "emmet.showAbbreviationSuggestions": false,
-    "vim.smartRelativeLine": true
+    "vim.smartRelativeLine": true,
+    "atlascode.jira.enabled": false,
+    "workbench.activityBar.location": "hidden"
   }
