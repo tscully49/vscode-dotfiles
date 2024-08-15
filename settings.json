@@ -609,5 +609,5 @@
     "emmet.showAbbreviationSuggestions": false,
     "vim.smartRelativeLine": true,
     "atlascode.jira.enabled": false,
-    "workbench.activityBar.location": "hidden"
+    "workbench.activityBar.location": "top"
 }
