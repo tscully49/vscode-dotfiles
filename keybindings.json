@@ -117,8 +117,14 @@
     {
       "key": "enter",
       "command": "search.action.focusSearchList",
-      "when": "sideBarFocus && focusedView == workbench.view.search"
+      "when": "sideBarFocus && focusedView == workbench.view.search && !listFocus"
     },
+    {
+      "key": "enter",
+      "command": "workbench.action.focusActiveEditorGroup",
+      "when": "sideBarFocus && focusedView == workbench.view.search && listFocus"
+    },
+
     // Close Sidebar with Escape
     {
       "key": "escape",
