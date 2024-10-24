@@ -131,6 +131,11 @@
       "command": "workbench.action.toggleSidebarVisibility",
       "when": "sideBarFocus"
     },
+    {
+        "key": "escape",
+        "command": "workbench.action.toggleAuxiliaryBar",
+        "when": "auxiliaryBarFocus"
+    },
     // Run selected text in terminal
     {
         "key": "ctrl+shift+enter",
@@ -162,5 +167,15 @@
     {
         "key": "alt+j",
         "command": "editor.action.moveLinesDownAction"
+    },
+    {
+        "key": "ctrl+cmd+right",
+        "command": "workbench.action.terminal.resizePaneRight",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+cmd+right",
+        "command": "-workbench.action.terminal.resizePaneRight",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
     }
 ]

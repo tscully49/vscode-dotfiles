@@ -609,5 +609,14 @@
     "emmet.showAbbreviationSuggestions": false,
     "vim.smartRelativeLine": true,
     "atlascode.jira.enabled": false,
-    "workbench.activityBar.location": "top"
+    "workbench.activityBar.location": "top",
+    "editor.accessibilitySupport": "off",
+    "editor.minimap.enabled": false,
+    "files.associations": {
+        "*.inc": "php"
+    },
+    "gitlens.advanced.blame.customArguments": [
+        "--ignore-revs-file",
+        ".git-blame-ignore-revs"
+    ]
 }
