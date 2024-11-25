@@ -45,7 +45,7 @@
             "test-sam-local/my-test/template.yaml",
             "test-sam-local/gitlab-github-integration/template.yaml"
         ],
-        "file:///Users/tscully/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+        "file:///Users/tscully/.vscode/extensions/atlassian.atlascode-3.0.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "json.schemas": [],
     "search.useIgnoreFiles": false,
@@ -611,12 +611,12 @@
     "atlascode.jira.enabled": false,
     "workbench.activityBar.location": "top",
     "editor.accessibilitySupport": "off",
-    "editor.minimap.enabled": false,
     "files.associations": {
         "*.inc": "php"
     },
     "gitlens.advanced.blame.customArguments": [
         "--ignore-revs-file",
         ".git-blame-ignore-revs"
-    ]
+    ],
+    "editor.minimap.enabled": false
 }
