@@ -10,6 +10,17 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true
+    },
     "yaml.customTags": [
         "!reference sequence",
         "!And",
@@ -45,7 +56,7 @@
             "test-sam-local/my-test/template.yaml",
             "test-sam-local/gitlab-github-integration/template.yaml"
         ],
-        "file:///Users/tscully/.vscode/extensions/atlassian.atlascode-3.0.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+        "file:///Users/tscully/.vscode/extensions/atlassian.atlascode-3.8.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "json.schemas": [],
     "search.useIgnoreFiles": false,
@@ -63,7 +74,6 @@
     "sftp.debug": true,
     "sftp.printDebugLog": true,
     "sftp.downloadWhenOpenInRemoteExplorer": true,
-    "window.zoomLevel": 3,
     "jest.virtualFolders": [],
     // Adding settings for vim mode
     "workbench.colorTheme": "Monokai",
@@ -599,6 +609,7 @@
         "websystems"
     ],
     "[python]": {
+        "editor.tabSize": 4,
         "editor.formatOnType": true
     },
     "security.workspace.trust.untrustedFiles": "open",
@@ -618,5 +629,34 @@
         "--ignore-revs-file",
         ".git-blame-ignore-revs"
     ],
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "settingsSync.ignoredSettings": [
+        "-window.zoomLevel"
+    ],
+    "workbench.settings.applyToAllProfiles": [
+        "window.zoomLevel"
+    ],
+    "pulumi-lsp.detectExtensionConflicts": false,
+    "[go]": {
+        "editor.formatOnSave": true
+    },
+    "markdownlint.config": {
+        "no-duplicate-heading": {
+            "siblings_only": true
+        }
+    },
+    "pylint.args": [
+        "--disable=E0015"
+    ],
+    "pylint.importStrategy": "fromEnvironment",
+    "pylint.cwd": "${fileDirname}",
+    "docker.extension.enableComposeLanguageServer": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
     "editor.minimap.enabled": false
 }
